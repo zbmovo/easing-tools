@@ -1,0 +1,56 @@
+{
+  "name": "easing-tools",
+  "version": "1.0.0",
+  "description": "一个用于npm package的开发模板",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "unpkg": "umd/index.umd.js",
+  "types": "types/index.d.ts",
+  "files": [
+    "es",
+    "lib",
+    "umd"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup --environment NODE_ENV:production --configPlugin typescript --config --bundleConfigAsCjs",
+    "build:dts": "tsc -p tsconfig.build.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zbmovo/easing-tools.git"
+  },
+  "keywords": [],
+  "author": "zbmovo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zbmovo/easing-tools/issues"
+  },
+  "homepage": "https://github.com/zbmovo/easing-tools#readme",
+  "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "@babel/preset-typescript": "^7.22.5",
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "@rollup/plugin-terser": "^0.4.3",
+    "@rollup/plugin-typescript": "^11.1.1",
+    "@types/babel__core": "^7.20.1",
+    "@types/node": "^20.2.5",
+    "rollup": "^3.24.0",
+    "tslib": "^2.5.3",
+    "typescript": "^5.1.3"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

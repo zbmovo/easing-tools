@@ -1,3 +1,9 @@
+# rollup and tsc output
+/es
+/lib
+/umd
+/types
+
 # Logs
 logs
 *.log
