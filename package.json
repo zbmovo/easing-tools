@@ -1,7 +1,7 @@
 {
   "name": "easing-tools",
   "version": "1.0.0",
-  "description": "一个用于npm package的开发模板",
+  "description": "一个 Javascript 过渡函数工具",
   "main": "lib/index.js",
   "module": "es/index.js",
   "unpkg": "umd/index.umd.js",
