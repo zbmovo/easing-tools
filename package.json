@@ -4,7 +4,7 @@
   "description": "一个 Javascript 过渡函数工具",
   "main": "lib/index.js",
   "module": "es/index.js",
-  "unpkg": "umd/index.umd.js",
+  "unpkg": "umd/index.js",
   "types": "types/index.d.ts",
   "files": [
     "es",
