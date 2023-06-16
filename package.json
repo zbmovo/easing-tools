@@ -1,6 +1,6 @@
 {
   "name": "easing-tools",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "一个 Javascript 过渡函数工具",
   "main": "lib/index.js",
   "module": "es/index.js",
